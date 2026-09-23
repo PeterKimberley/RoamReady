@@ -1,12 +1,12 @@
-export default fucntion LoginPage() {
+export default function LoginPage() {
     return (
         <div>
-        <h1>Log In</h1>
-        <form>
-        <input type="email" placeholder="EMAIL"
-        <input type="password" placeholder="PASSWORD"
-        <button type="submit">Log In</button>
-        </form>
-        </div>
+            <h1>Log in</h1>
+            <form>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="submit">Log In</button>
+                </form>
+                </div>
     );
 }
