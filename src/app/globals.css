@@ -57,3 +57,37 @@ body {
   padding: 8px 20px;
   border-radius: 12px;
 }
+
+/* hero section*/
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 24px; 
+}
+
+.hero-content h1{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero-content h1 span{
+  color: #689368;
+  font-style: italic;
+}
+
+.hero-content p {
+  max-width: 350px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+}
