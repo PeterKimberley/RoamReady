@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "tailwindcss";
-
 
 :root {
   --background: #EEF3EA;
@@ -49,4 +49,11 @@ body {
 
 .nav-logo span{
   color: #689368;
+}
+
+.signup-button{
+  color: white;
+  background-color: #2F4538;
+  padding: 10px 20px;
+  border-radius: 12px;
 }
