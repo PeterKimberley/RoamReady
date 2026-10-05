@@ -2,13 +2,15 @@ import Link from "next/link" ; // Next.js link
 
 export default function Navbar() { //
 return (
-    <nav>
+    <nav className="navbar">
         <Link href="/">RoamReady</Link>
-        <div>
+        <div className="nav-links">
+            <Link href="/features">Features</Link>
+            <Link href="/about">About</Link>
             <Link href="/login">Log In</Link>
-            <Link href="signup">SignUp</Link>
+            <Link href="/signup">Sign Up</Link>
             
-            </div>
+        </div>
             </nav>
 ); 
 //this is just bare bones until we get colors/spacing chosen

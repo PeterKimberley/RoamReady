@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #EEF3EA;
+    --foreground: #100b0b;
   }
 }
 
@@ -23,4 +23,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 6%;
+  align-items: center;
+}
+
+.nav-links{
+  gap: 24px;
+  display: flex;
+  align-items: center;
 }
