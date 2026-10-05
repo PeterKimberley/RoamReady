@@ -3,7 +3,7 @@ import Link from "next/link" ; // Next.js link
 export default function Navbar() { //
 return (
     <nav className="navbar">
-        <Link href="/">RoamReady</Link>
+        <Link href="/" className="nav-logo"> <span>Roam</span>Ready</Link>
         <div className="nav-links">
             <Link href="/features">Features</Link>
             <Link href="/about">About</Link>

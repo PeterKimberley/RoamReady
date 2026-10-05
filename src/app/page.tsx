@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-\    {/*Placeholder homepage - UI/UX design here*/}
+    {/*Placeholder homepage - UI/UX design here*/}
     </>
 
 
