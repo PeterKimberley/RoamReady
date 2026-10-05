@@ -24,7 +24,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 6%;
+  padding: 20px;
   align-items: center;
   font-family: 'Inter', sans-serif;
 
@@ -54,6 +54,6 @@ body {
 .signup-button{
   color: white;
   background-color: #2F4538;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 12px;
 }
