@@ -16,15 +16,29 @@ export default function Home() {
             <Link href="/signup" className="start-button">Start Planning</Link>
             <Link href="/features" className="explore-button">Explore Features</Link>
           </div>
+
+          <div className="hero-image">
+          {/*image place holder */}
+          </div>
+
+          <section className="how-it-works">
+            <h2>How it works:</h2>
+
+            <div className="steps">
+              <div className="create-trips">
+                <span className=""></span>
+              </div>
+            </div>
+
+        
+          </section>
          
         </div>
 
         
 
-
-        <div className="hero-image">
-          {/*image place holder */}
-        </div>
+        
+      
 
       </section>
     </main>
