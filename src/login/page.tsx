@@ -6,7 +6,7 @@ export default function LoginPage() {
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <button type="submit">Log In</button>
-                </form>
-                </div>
+            </form>
+        </div>
     );
 }
