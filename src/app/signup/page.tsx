@@ -1,5 +1,7 @@
 export default function SignupPage() {
     return (
+        <main> 
+            
         <div>
             <h1>Sign Up</h1>
             <form>
@@ -9,5 +11,12 @@ export default function SignupPage() {
                 <button type="submit">Sign Up</button>
                 </form>
                 </div>
+
+            <div>
+
+            </div>
+
+        </main>
+            
     );
 }
