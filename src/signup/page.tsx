@@ -8,6 +8,6 @@ export default function SignupPage() {
                 <input type="password" placeholder="Password" />
                 <button type="submit">Sign Up</button>
                 </form>
-                </div>
+            </div>
     );
 }
