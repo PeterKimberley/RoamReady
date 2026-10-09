@@ -92,5 +92,5 @@ body {
 .sign-up {
   display: flex;
   justify-content: flex;
-  align-items: center;
+  align-items: center; 
 }
