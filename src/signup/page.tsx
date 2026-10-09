@@ -2,8 +2,10 @@ export default function SignupPage() {
     return (
         <!DOCTYPE html>
         <html lang = "en">
+            <head>
             <title> Sign Up page </title>
-                <div class = "SignUp">
+            </head>
+                <div className ="sign-up">
                     <h1>Create an Account</h1>
                     <form>
                         <input type="text" placeholder="Full Name" /><br />
@@ -12,9 +14,6 @@ export default function SignupPage() {
                         <button type="submit">Sign Up</button><br/>
                     </form>
                 </div>
-            <head>
-            </head>
-
             <body>
             </body>
         </html>
