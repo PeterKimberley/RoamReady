@@ -93,3 +93,11 @@ body {
   justify-content: center;
   align-items: center; 
 }
+
+/* hotel page */
+
+.hotel-image {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
