@@ -90,6 +90,6 @@ body {
 /* Sign-Up */
 .sign-up { 
   display: flex;
-  justify-content: flex;
+  justify-content: center;
   align-items: center; 
 }
