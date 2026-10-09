@@ -1,9 +1,7 @@
 export default function hotelpage() {
     return (
         <main>
-            <head>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
-            </head>
             <section className = "hotel">
                 <div className = "hotel-title">
                     <h1 className = "roam"> RoamReady </h1>
