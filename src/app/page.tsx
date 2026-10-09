@@ -12,7 +12,9 @@ export default function Home() {
             <br/>
             <span>Roam.</span>
           </h1>
+
           <p>From your first idea to your final itinerary, RoamReady keeps your trip organized in one place. </p>
+          
           <div className="hero-actions" >
             <Link href="/signup" className="start-button">Start Planning</Link>
             <Link href="/features" className="explore-button">Explore Features</Link>

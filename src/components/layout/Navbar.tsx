@@ -1,5 +1,6 @@
 import Link from "next/link" ; // Next.js link
 
+
 export default function Navbar() { //
 return (
     <nav>
