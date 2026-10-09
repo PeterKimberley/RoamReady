@@ -15,10 +15,7 @@ export default function hotelpage() {
                     </form>
                     <p>Not sure where to start? Here are popular countries...</p>
                 </div>
-                <div className = "hotel-image">
-                    <img src = "https://www.dailysabah.com/life/travel/cherry-blossoms-calling-what-to-expect-in-japan-2025">
-                    <h1> Trip to Japan <h1>
-                </div>
+                <h1>Trip to Japan </h1>
             </section>
         </main>
     ) 
