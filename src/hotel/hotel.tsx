@@ -7,13 +7,14 @@ export default function hotelpage() {
                     <h1 className = "roam"> RoamReady </h1>
                     <button type = "button"> Flights </button>
                     <button type = "button"> Hotel </button>
+                    <form>
+                        <div className = "search">
+                            <span className= "search-icon material-symbols-outlined"> search </span>
+                            <input className = "search-input" type = "search" placeholder = "Search"/>
+                        </div>
+                    </form>
+                    <p>Not sure where to start? Here are popular countries...</p>
                 </div>
-                <form>
-                    <div className = "search">
-                        <span className= "search-icon material-symbols-outlined"> search </span>
-                        <input className = "search-input" type = "search" placeholder = "Search"/>
-                    </div>
-                </form>
             </section>
         </main>
     ) 
