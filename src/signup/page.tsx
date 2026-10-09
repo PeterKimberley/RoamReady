@@ -11,7 +11,7 @@ export default function SignupPage() {
                         <button type="submit">Sign Up</button><br/>
                     </form>
                 </div>
-            <section>
+            </section>
         </main> 
     );
 }
