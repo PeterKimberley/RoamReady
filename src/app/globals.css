@@ -88,8 +88,7 @@ body {
 /* Sign Up page */
 
 /* Sign-Up */
-
-.sign-up {
+.sign-up { 
   display: flex;
   justify-content: flex;
   align-items: center; 
