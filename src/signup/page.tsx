@@ -2,17 +2,17 @@ export default function SignupPage() {
     return (
         <!DOCTYPE html>
         <html lang = "en">
-            <head>
-                <title> Sign Up page </title>
-                 <div>
+            <title> Sign Up page </title>
+                <div class = "SignUp">
                     <h1>Create an Account</h1>
                     <form>
-                        <input type="text" placeholder="Full Name" /> 
-                        <input type="email" placeholder="Email" /> 
-                        <input type="password" placeholder="Password" /> 
-                        <button type="submit">Sign Up</button>
+                        <input type="text" placeholder="Full Name" /><br />
+                        <input type="email" placeholder="Email" /><br/>
+                        <input type="password" placeholder="Password" /><br/>
+                        <button type="submit">Sign Up</button><br/>
                     </form>
                 </div>
+            <head>
             </head>
 
             <body>
