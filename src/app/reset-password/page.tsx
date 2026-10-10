@@ -1,5 +1,6 @@
 export default function ResetPasswordPage() {
     return (
+        <main>
         <div>
         <h1>Reset Password</h1>
         <form>
@@ -7,6 +8,6 @@ export default function ResetPasswordPage() {
         <button type="submit">Send Reset Link</button>
         </form>
         </div>
-
+        </main>
     );
 }

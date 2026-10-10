@@ -84,3 +84,19 @@ body {
   display: flex;
   gap: 12px;
 }
+
+/* hotel page */
+
+/* hotel page */
+.hotel {
+  padding: 24px;
+}
+
+.hotel-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hotel-japan {
+  text-align: center;
+}
