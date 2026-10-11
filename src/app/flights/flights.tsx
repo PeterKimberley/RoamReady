@@ -16,6 +16,7 @@ export default function flights() {
                     <p>Not sure where to start? Here are popular countries...</p>
                 </div>
                 <h1>Trip to Japan </h1>
+                <p>Japan is a beautiful country with a rich culture and stunning landscapes.</p>
             </section>
         </main>
     )
