@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
+        {/* Hero content */}
         <div className="hero-content">
           <h1>Dream it.
             <br/>
@@ -19,31 +20,16 @@ export default function Home() {
             <Link href="/signup" className="start-button">Start Planning</Link>
             <Link href="/features" className="explore-button">Explore Features</Link>
           </div>
+        </div>          {/* End of Hero content */}
 
-          <div className="hero-image">
-          {/*image place holder */}
-          </div>
-
-          <section className="how-it-works">
-            <h2>How it works:</h2>
-
-            <div className="steps">
-              <div className="create-trips">
-                <span className=""></span>
-              </div>
-            </div>
-
-        
-          </section>
-         
+        <div className="hero-image"> 
+          {/* Add image for hero content*/}
         </div>
 
-        
-
-        
-      
-
       </section>
+
+
+
     </main>
 
   );

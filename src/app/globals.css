@@ -85,6 +85,20 @@ body {
   gap: 12px;
 }
 
+.start-button{
+  color: white;
+  background-color: #2F4538;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+
+.explore-button{
+  color: white;
+  background-color: #2F4538;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+
 /* hotel page */
 
 /* hotel page */
