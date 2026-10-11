@@ -1,4 +1,4 @@
-export default function Scam() {
+export default function scam() {
     return (
         <main>
             <section className="scam">

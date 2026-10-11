@@ -20,9 +20,6 @@ export default function hotelpage() {
                     <h1>Hotels in Japan </h1>
                     <p></p>
                     <button type = "button"> More Details </button>
-                    <button type = "button"> More Details </button>
-                    <button type = "button"> More Details </button>
-                    
                 </div>
             </section>
         </main>

@@ -1,4 +1,4 @@
-export default function Communities() {
+export default function communities() {
     return (
         <main>
             <section className="communities">
