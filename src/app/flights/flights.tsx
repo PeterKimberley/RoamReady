@@ -33,6 +33,13 @@ export default function flights() {
                     You can see the Pyramids of Teotihuacan and the beaches of Cancun.</p>
                 <button type = "button"> More Details </button>
             </section>
+            <footer className="footer">
+                <p>Copyright 2026 RoamReady. All rights reserved.</p>
+                <div className="footer-links">
+                    <Link href="/about">About</Link>
+                    <Link href="/features">Features</Link>
+                </div>
+            </footer>
         </main>
     )
 }
