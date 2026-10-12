@@ -16,7 +16,21 @@ export default function flights() {
                     <p>Not sure where to start? Here are popular countries...</p>
                 </div>
                 <h1>Trip to Japan </h1>
-                <p>Japan is a beautiful country with a rich culture and stunning landscapes.</p>
+                <p>Want to go to an awesome adventure in Japan? 
+                    You can see cool scenery like Mount Fuji and pink cherry blossoms trees.</p>
+                <button type = "button"> More Details </button>
+                <h1>Trip to France </h1>
+                <p>Want to go to an awesome adventure in France?
+                    You can see the Eiffel Tower and the Louvre Museum.</p>
+                <button type = "button"> More Details </button>
+                <h1>Trip to Italy </h1>
+                <p>Want to go to an awesome adventure in Italy? 
+                    You can see the Colosseum and the Leaning Tower of Pisa.</p>
+                <button type = "button"> More Details </button>
+                <h1>Trip to Mexico </h1>
+                <p>Want to go to an awesome adventure in Mexico?
+                    You can see the Pyramids of Teotihuacan and the beaches of Cancun.</p>
+                <button type = "button"> More Details </button>
             </section>
         </main>
     )

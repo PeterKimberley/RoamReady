@@ -18,7 +18,19 @@ export default function hotelpage() {
                 <div className = "hotel-japan">
                     {/* add image here */}
                     <h1>Hotels in Japan </h1>
-                    <p></p>
+                    <p>Features tatami mats, sliding doors, low tables and includes onsen (hot spring) and multi-course kaiseki dining.</p>
+                    <button type = "button"> More Details </button>
+                    {/* add image here */}
+                    <h1>Hotels in France </h1>
+                    <p>Features 2 bedrooms, great dining, and exceptional service.</p>
+                    <button type = "button"> More Details </button>
+                    {/* add image here */}
+                    <h1>Hotels in Italy </h1>
+                    <p>Features 3 bedrooms, has great views, and best food service.</p>
+                    <button type = "button"> More Details </button>
+                    {/* add image here */}
+                    <h1>Hotels in Mexico </h1>
+                    <p>Features 4 bedrooms, has a private pool, and is located near the beach.</p>
                     <button type = "button"> More Details </button>
                 </div>
             </section>
