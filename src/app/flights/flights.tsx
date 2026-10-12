@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function flights() {
     return (
         <main>
@@ -5,8 +6,8 @@ export default function flights() {
             <section className = "Flights">
                 <div className = "flight-title">
                     <h1 className = "roam"> RoamReady </h1>
-                    <button type = "button"> Flights </button>
-                    <button type = "button"> Hotel </button>
+                    { /*<button type = "button"> Flights </button>
+                    <button type = "button"> Hotel </button> */}
                     <form>
                         <div className = "search">
                             <span className= "search-icon material-symbols-outlined"> search </span>

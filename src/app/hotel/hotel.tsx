@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function hotelpage() {
     return (
        <main>
@@ -5,8 +6,10 @@ export default function hotelpage() {
             <section className = "hotel">
                 <div className = "hotel-title">
                     <h1 className = "roam"> RoamReady </h1>
-                    <button type = "button"> Flights </button>
-                    <button type = "button"> Hotel </button>
+                    <Link href="/flights" className="flights-button">Flights</Link>
+                    <Link href="/hotel" className="hotel-button">Hotel</Link>
+                    { /* <button type = "button"> Flights </button> 
+                      <button type = "button"> Hotel </button> */}
                     <form>
                         <div className = "search">
                             <span className= "search-icon material-symbols-outlined"> search </span>
@@ -15,6 +18,8 @@ export default function hotelpage() {
                     </form>
                     <p>Not sure where to start? Here are popular Hotels...</p>
                 </div>
+
+                 {/* Hotels */}
                 <div className = "hotel-japan">
                     {/* add image here */}
                     <h1>Hotels in Japan </h1>
@@ -34,6 +39,13 @@ export default function hotelpage() {
                     <button type = "button"> More Details </button>
                 </div>
             </section>
+            <footer className="footer">
+                <p>Copyright 2026 RoamReady. All rights reserved.</p>
+                <div className="footer-links">
+                    <Link href="/about">About</Link>
+                    <Link href="/features">Features</Link>
+                </div>
+            </footer>
         </main>
     )
 }
