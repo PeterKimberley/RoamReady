@@ -1,6 +1,7 @@
 import { signup } from '../login/actions'
 
-export default function SignupPage({ searchParams }: { searchParams: { error?: string } }) {
+export default async function SignupPage(props: { searchParams: Promise<{ error?: string }> }) {
+    const searchParams = await props.searchParams
     return (
         <div>
             <h1>Sign Up</h1>
