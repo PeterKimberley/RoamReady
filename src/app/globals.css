@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "tailwindcss";
 
+@media (max-width: 768px) {
+  .steps{flex-direction: column;}
+}
+
 :root {
   --background: #EEF3EA;
   --foreground: #100b0b;
@@ -99,6 +103,40 @@ body {
   border-radius: 12px;
 }
 
+/*how it works */
+.how-it-works h2{
+  font-size: 45px;
+  text-align: center;
+}
+
+.how-it-works p {
+  text-align: center;
+}
+.steps {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+}
+
+.step h3{
+  font-size: 24px;
+  margin: 16px 0 8px;
+}
+/*why roamready*/ 
+.why-roamready h2{
+  font-size: 45px;
+  text-align: center;
+}
+
+.why-roamready p{
+  text-align: center;
+}
 /* hotel page */
 
 /* hotel page */
@@ -113,4 +151,6 @@ body {
 
 .hotel-japan {
   text-align: center;
+  padding: 20px;
 }
+

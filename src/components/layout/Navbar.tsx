@@ -8,7 +8,7 @@ return (
        <nav className="navbar">
         <Link href="/" className="nav-logo"><span>Roam</span>Ready</Link>
         <div className="nav-links">
-            <Link href="/features">Features</Link>
+            <Link href="/features">Dashboard</Link>
             <Link href="/about">About</Link>
             <Link href="/login">Log In</Link>
             <Link href="signup" className="signup-button">Sign Up</Link>

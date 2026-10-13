@@ -29,8 +29,8 @@ export default function Home() {
 
       {/* How it works */}
       <section className="how-it-works">
-        <h2>How it works</h2>
-        <p>Plan your trip in three steps.</p>
+       <h2> How it works:</h2>
+        <p>Plan your trip in three easy steps.</p>
 
         <div className="steps">
           <div className="step">
@@ -40,24 +40,37 @@ export default function Home() {
           </div>
           <div className="step">
             <span className="step-two">2</span>
-            <h3>Build your plan</h3>
+            <h3>Build your plan.</h3>
             <p>Organize your itinerary , budget, and packing lists.</p>
           </div>
           <div className="step">
             <span className="step-three">3</span>
-            <h3>Roam</h3>
+            <h3>Roam.</h3>
             <p>Keep your plans together wherever you go.</p>
           </div>
-
-          
         </div>
-
-
       </section>
 
       {/* Why RoamReady */}
        <section className="why-roamready">
         <h2>Why RoamReady?</h2>
+        <p> Everything you need for a smoother, safer trip.</p>
+        <section>
+
+        {/*flights not fights lol */}
+        {/*Hotels*/}
+        {/*Transportation*/}
+        {/*Packages*/}
+        {/*Budget*/}
+        {/*Itinerary*/}
+        {/*Packing*/}
+        {/*Safety*/}
+
+        </section>
+       
+         
+         
+
        </section>
 
       {/* Ready to Start your adventure */}
