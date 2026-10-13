@@ -3,7 +3,8 @@ import { signup } from '../login/actions'
 export default async function SignupPage(props: { searchParams: Promise<{ error?: string }> }) {
     const searchParams = await props.searchParams
     return (
-        <div>
+        <main>
+            <div>
             <h1>Sign Up</h1>
             {searchParams?.error && <p style={{ color: 'red' }}>{searchParams.error}</p>}
             <form action={signup}>
@@ -13,5 +14,7 @@ export default async function SignupPage(props: { searchParams: Promise<{ error?
                 <button type="submit">Sign Up</button>
             </form>
         </div>
+        </main>
+        
     );
 }
