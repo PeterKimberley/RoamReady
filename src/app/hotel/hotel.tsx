@@ -41,7 +41,6 @@ export default function hotelpage() {
                     <button type = "button"> More Details </button>
                 </div>
                 <div className = "hotel-mexico">
-                    { /* add image here */ }
                     {/* add image here */}
                     <h1>Hotels in Mexico </h1>
                     <p>Features 4 bedrooms, has a private pool, and is located near the beach.</p>
