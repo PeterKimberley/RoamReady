@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "tailwindcss";
 
-@media (max-width: 768px) {
-  .steps{flex-direction: column;}
-}
+
 
 :root {
   --background: #EEF3EA;
@@ -104,29 +102,74 @@ body {
 }
 
 /*how it works */
-.how-it-works h2{
-  font-size: 45px;
+.how-it-works {
+  padding: 60px 24px;
   text-align: center;
 }
 
-.how-it-works p {
-  text-align: center;
+.how-it-works h2{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
+
+.how-it-works > p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
 .steps {
   display: flex;
-  justify-content: flex-start;
+  max-width: 950px;
   gap: 40px;
-  margin-top: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: calc((100% - 80px)/6);
+  right: calc((100% - 80px)/6);
+  height: 2px;
+  background-color: #689368;
+}
+
+.step span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 34px;
+  border-radius: 50%;
+  background-color: #689368;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+
 }
 
 .step {
   flex: 1;
+  position: relative;
   text-align: center;
 }
 
 .step h3{
   font-size: 24px;
-  margin: 16px 0 8px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.step p {
+  font-size: 15px;
+  max-width: 250px;
+  margin: 0 auto;
+  line-height: 1.6;
+
 }
 /*why roamready*/ 
 .why-roamready h2{
@@ -154,3 +197,17 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .steps{flex-direction: column;
+    gap: 36px;
+  }
+  
+  .steps::before {
+    display: none;
+  }
+
+  .step span{
+    margin-bottom: 16px;
+  }
+
+}
