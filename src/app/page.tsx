@@ -59,27 +59,85 @@ export default function Home() {
         <div className="feature-grid">
           <article className="feature-card">
             {/* <img src="" alt=""/>*/}
+            {/*flights not fights lol */}
             <div className="feature-content">
-              <h3></h3>
-              <p></p>
-              <Link href=""></Link>
+              <h3>Flights</h3>
+              <p>Find and compare travel options.</p>
+              <Link href="/flights">Explore Flights →</Link>
             </div>
           </article>
 
-        {/*flights not fights lol */}
         {/*Hotels*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Hotels</h3>
+              <p>Find stays that fit your destination.</p>
+              <Link href="">Explore Hotels  →</Link>
+            </div>
+          </article>
+          
         {/*Transportation*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Transportation</h3>
+              <p>Explore ways to get around your destination.</p>
+              <Link href="">Explore Transportation  →</Link>
+            </div>
+          </article>
+
         {/*Packages*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Packages</h3>
+              <p>Explore packages for your next adventure.</p>
+              <Link href="">Explore Packages  →</Link>
+            </div>
+          </article>
+
         {/*Budget*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Budget</h3>
+              <p>Track your spending and stay within your trip budget.</p>
+              <Link href="">Manage Budget →</Link>
+            </div>
+          </article>
+
         {/*Itinerary*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Itinerary</h3>
+              <p>Keep activities and plans organized b</p>
+              <Link href="">View Itinerary →</Link>
+            </div>
+          </article>
+
         {/*Packing*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Packing</h3>
+              <p></p>
+              <Link href="">Build a Packing List →</Link>
+            </div>
+          </article>
+
         {/*Safety*/}
+        <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3>Safety</h3>
+              <p></p>
+              <Link href="">Explore Safety →</Link>
+            </div>
+          </article>
 
         </div>
-       
-         
-         
-
       </section> 
 
       {/* Ready to Start your adventure */}
