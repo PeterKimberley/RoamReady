@@ -52,10 +52,19 @@ export default function Home() {
       </section>
 
       {/* Why RoamReady */}
-       {/* <section className="why-roamready">
+      <section className="why-roamready">
         <h2>Why RoamReady?</h2>
         <p> Everything you need for a smoother, safer trip.</p>
-        <section>
+        
+        <div className="feature-grid">
+          <article className="feature-card">
+            {/* <img src="" alt=""/>*/}
+            <div className="feature-content">
+              <h3></h3>
+              <p></p>
+              <Link href=""></Link>
+            </div>
+          </article>
 
         {/*flights not fights lol */}
         {/*Hotels*/}
@@ -66,12 +75,12 @@ export default function Home() {
         {/*Packing*/}
         {/*Safety*/}
 
-        {/* </section> */}
+        </div>
        
          
          
 
-       {/* </section> */}
+      </section> 
 
       {/* Ready to Start your adventure */}
       {/* <section className="ready-start">
