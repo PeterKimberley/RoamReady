@@ -41,7 +41,7 @@ export default function Home() {
           <div className="step">
             <span className="step-two">2</span>
             <h3>Build your plan.</h3>
-            <p>Organize your itinerary , budget, and packing lists.</p>
+            <p>Organize your itinerary, budget, and packing lists.</p>
           </div>
           <div className="step">
             <span className="step-three">3</span>
