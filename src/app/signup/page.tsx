@@ -1,4 +1,4 @@
-import { signup } from '../login/actions'
+import { signup, signInWithGoogle } from '../login/actions'
 
 export default async function SignupPage(props: { searchParams: Promise<{ error?: string }> }) {
     const searchParams = await props.searchParams
@@ -11,6 +11,12 @@ export default async function SignupPage(props: { searchParams: Promise<{ error?
                 <input type="email" name="email" placeholder="Email" required />
                 <input type="password" name="password" placeholder="Password" required />
                 <button type="submit">Sign Up</button>
+            </form>
+
+            <hr style={{ margin: '16px 0' }} />
+
+            <form action={signInWithGoogle}>
+                <button type="submit">Sign up with Google</button>
             </form>
         </div>
     );
