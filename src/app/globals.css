@@ -225,6 +225,16 @@ body {
   gap: 12px;
 }
 
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 5px 12px;
+  background-color: white;
+}
+
 @media (max-width: 768px) {
   .steps{flex-direction: column;
     gap: 36px;
