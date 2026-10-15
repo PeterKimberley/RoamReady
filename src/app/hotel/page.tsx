@@ -7,19 +7,19 @@ export default function hotelpage() {
             {/* Title */ }
             <section className = "hotel">
                 <div className = "hotel-title">
-                    <h1 className = "roam"> RoamReady </h1>
+                    { /* <h1 className = "roam"> RoamReady </h1> */}
                     <Link href="/flights" className="flights-button">Flights</Link>
                     <Link href="/hotel" className="hotel-button">Hotel</Link>
                     { /* <button type = "button"> Flights </button> 
                       <button type = "button"> Hotel </button> */}
-                    <form>
-                        <div className = "search">
-                            <span className= "search-icon material-symbols-outlined"> search </span>
-                            <input className = "search-input" type = "search" placeholder = "Search"/>
-                        </div>
-                    </form>
-                    <p>Not sure where to start? Here are popular Hotels...</p>
                 </div>
+                <form className = "form">
+                    <div className = "search">
+                        <span className= "search-icon material-symbols-outlined"> search </span>
+                        <input className = "search-input" type = "search" placeholder = "Search"/>
+                    </div>
+                    <p>Not sure where to start? Here are popular Hotels...</p>
+                </form>
 
                  {/* Hotels */}
                 <div className = "hotel-japan">

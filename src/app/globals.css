@@ -189,8 +189,7 @@ body {
 
 .hotel-title {
   text-align: center;
-  margin-bottom: 40px;
-  color: #e00404;
+  margin-bottom: 20px;
 }
 
 .hotel-japan {
@@ -198,10 +197,17 @@ body {
   padding: 20px;
 }
 
-.roam {
-  color: #ff0000;
-  font-weight: 700;
-  font-size: 24px;
+.hotel-button {
+  color: white;
+  background-color: #04566E;
+  border-radius: 12px;
+}
+
+.flights-button {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-color: gray;
 }
 
 @media (max-width: 768px) {
