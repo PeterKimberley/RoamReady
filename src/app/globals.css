@@ -188,8 +188,12 @@ body {
 }
 
 .hotel-title {
-  text-align: center;
   margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hotel-japan {
@@ -201,13 +205,24 @@ body {
   color: white;
   background-color: #04566E;
   border-radius: 12px;
+  border: 1px solid black;
+  padding: 10px 100px;
+
 }
 
 .flights-button {
   color: black;
   background-color: #ffffff;
   border-radius: 12px;
-  border-color: gray;
+  border: 1px solid black;
+  padding: 10px 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 @media (max-width: 768px) {
