@@ -187,6 +187,7 @@ body {
   padding: 24px;
 }
 
+/* Makes Button go to center and has a gap*/
 .hotel-title {
   margin-bottom: 20px;
   display: flex;
@@ -196,11 +197,7 @@ body {
   align-items: center;
 }
 
-.hotel-japan {
-  text-align: center;
-  padding: 20px;
-}
-
+/* Button styles */
 .hotel-button {
   color: white;
   background-color: #04566E;
@@ -218,6 +215,7 @@ body {
   padding: 10px 100px;
 }
 
+/* Center Search bar  */ 
 .form {
   display: flex;
   flex-direction: column;
@@ -225,6 +223,7 @@ body {
   gap: 12px;
 }
 
+/* Search bar styles */
 .search {
   display: flex;
   align-items: center;
@@ -233,6 +232,12 @@ body {
   border-radius: 12px;
   padding: 5px 12px;
   background-color: white;
+}
+
+/* Hotel in Japan */
+.hotel-japan {
+  text-align: center;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
